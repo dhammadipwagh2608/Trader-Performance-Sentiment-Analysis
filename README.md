@@ -1,15 +1,29 @@
-
 # Trader Performance vs Market Sentiment Analysis
 
-This project analyzes the relationship between market sentiment (Fear vs Greed) and trader behavior using Hyperliquid trading data.
+## Overview
+This project analyzes how market sentiment (Fear vs Greed) affects trader behavior and performance using Hyperliquid trading data.
 
-## Steps performed:
-- Data cleaning and timestamp alignment
-- Feature engineering
-- Sentiment-based performance comparison
-- Trader segmentation
-- Visualization and insights
+## Methodology
+- Data loading and inspection
+- Timestamp alignment
+- Feature engineering (win/loss, trade size segmentation)
+- Sentiment-based analysis
+- Trader behavior comparison
 
-## How to run:
+## How to Run
+
 1. Open notebook.ipynb
-2. Run all cells from top to bottom
+2. Run all cells sequentially
+
+## Tools Used
+- Python
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
+
+## Key Outputs
+Charts showing:
+- PnL vs sentiment
+- Trade size vs sentiment
+- Trader segmentation analysis
